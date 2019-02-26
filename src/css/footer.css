@@ -1,0 +1,43 @@
+footer {
+  background: #1b1b1b;
+  padding: 30px;
+  font-family: Verdana;
+  font-size: .75em;
+  color: #fff; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.footerInfo {
+  float: left; }
+
+.company {
+  display: block;
+  font-size: 3.75em;
+  font-family: Georgia;
+  margin-bottom: 30px; }
+
+.mailing {
+  float: right; }
+  .mailing form {
+    margin: 7px 0; }
+  .mailing input {
+    width: 260px;
+    padding: 5px; }
+  .mailing button {
+    padding: 5px; }
+  .mailing a {
+    color: #ff9900; }
+
+.copyright {
+  clear: both;
+  padding: 30px 0;
+  color: #4a4a4a; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }

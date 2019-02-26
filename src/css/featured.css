@@ -1,0 +1,41 @@
+.featured {
+  display: flex;
+  background: #f0f0f0;
+  align-items: center; }
+
+.featured__imageHolder {
+  position: relative;
+  min-width: 360px;
+  height: 330px;
+  margin: 25px 30px;
+  background: #666; }
+  .featured__imageHolder img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 330px; }
+
+.featured__textBlock {
+  margin-right: 30px; }
+
+.featured__textBlock h1 {
+  font-size: 2.875em;
+  font-weight: 100;
+  line-height: 2.5rem;
+  color: #666; }
+
+.featured__textBlock p {
+  line-height: 1.8rem;
+  font-size: 1em;
+  font-weight: 100;
+  color: #666;
+  margin: 35px 0; }
+
+.featured__textBlock a {
+  float: right;
+  font-size: 1.125em;
+  color: #ff9900; }

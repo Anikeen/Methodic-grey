@@ -1,0 +1,25 @@
+.latest {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f5f5f5; }
+
+.latestBlock {
+  width: calc(100%/3 - 40px);
+  margin: 30px 20px; }
+  .latestBlock h3 {
+    font-size: 1.25em;
+    font-weight: 100;
+    color: #666;
+    margin-bottom: 15px; }
+  .latestBlock p {
+    font-size: .75em;
+    color: #666;
+    font-family: Verdana;
+    margin-bottom: 20px; }
+  .latestBlock a {
+    font-size: .75em;
+    font-weight: 600;
+    color: #000;
+    font-family: Verdana;
+    background: #e5e5e5;
+    padding: 5px; }
