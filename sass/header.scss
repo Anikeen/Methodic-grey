@@ -1,0 +1,54 @@
+.header {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 0;
+	border-bottom: 1px solid #bfbfbf;
+	margin-bottom: 5px;	
+	&-logo {
+		font-size: 2.25rem;
+		color: #666;
+		&__sign {
+			display: block;
+			font-size: .75rem;	
+			font-family: Verdana;
+			margin-top: 15px;
+		}
+	}
+}
+.navigation {
+	display: flex;
+	&__item {
+		padding: 15px;	
+		border-right: 1px solid #bfbfbf;
+		transition: border-color  .4s;
+		&:hover {
+			border-color: #000;
+		}		
+	}	
+	&__link {
+		font-size: .8125em;
+		font-family: Verdana;
+		color: #bfbfbf;
+		transition: color  .4s;
+		&:hover {
+			color: #000;
+		}		
+	}	
+}
+.menu-toggle {
+	display: none;
+	float: right;
+	text-transform: uppercase;
+	font-size: .8125em;
+	font-family: Verdana;
+	color: #bfbfbf;
+	padding: 14px;
+	border-right: 1px solid #bfbfbf;
+	cursor: pointer;
+	transition: color  .4s;
+	&:hover {
+		color: #000;
+		border-color: #000;
+	}
+}

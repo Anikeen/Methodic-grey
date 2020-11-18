@@ -1,0 +1,55 @@
+@media screen and (max-width: 800px) {
+	.featured {
+		flex-wrap: wrap;
+		justify-content: center;
+		&__description {
+			width: 90%;
+			text-align: center;
+		}
+		&__img {
+			margin-right: 0;
+			margin-bottom: 30px;
+		}
+		&__title {
+			font-size: 2em;
+			line-height: 2rem;
+		}
+		&__text {
+			line-height: 1.5rem;
+			margin: 10px 0;
+		}		
+	}
+}
+
+@media screen and (max-width: 650px) {
+	
+	.articles-preview__title {
+		font-size: 1.75em;
+		line-height: 2.2rem;
+	}
+	.article-preview {
+		width: 100%;
+	}
+	.latest {
+		padding-bottom: 30px;
+	}
+	.latest-preview {
+		width: 100%;		
+	}
+	.footer {
+		text-align: center;
+	}
+	.company-info {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.mailing {
+		width: 100%;
+	}
+	.mailing-form__input {
+		width: 200px;
+	}	
+	.copyright {
+		flex-direction: column;
+	}
+}

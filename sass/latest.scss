@@ -1,0 +1,29 @@
+.latest {
+	display: flex;
+	flex-wrap: wrap;
+	background: #f5f5f5;
+}
+.latest-preview {
+	width: calc(100%/3 - 40px);
+	margin: 30px 20px;
+	&__title {
+		font-size: 1.25em;
+		font-weight: 100;
+		color: #666;
+		margin-bottom: 15px;
+	}
+	&__text {
+		font-size: .75em;		
+		color: #666;
+		font-family: Verdana;
+		margin-bottom: 20px;	
+	}
+	&__link {
+		font-size: .75em;
+		font-weight: 600;		
+		color: #000;
+		font-family: Verdana;
+		background: #e5e5e5;
+		padding: 5px;
+	}
+}

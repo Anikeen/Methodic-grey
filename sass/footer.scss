@@ -1,0 +1,49 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	padding: 30px;
+
+	font-family: Verdana;
+	font-size: .75em;
+	color: #fff;
+
+	background: #1b1b1b;
+}
+.company-info {
+	&__name {
+		margin-bottom: 30px;
+		font-size: 3.75em;
+		font-weight: 400;
+		font-family: Georgia;	
+	}
+}
+.mailing {
+	&-form {
+		margin: 7px 0;
+		&__input {
+			width: 260px;
+			padding: 5px;
+		}
+		&__btn {
+			padding: 5px;
+		}
+	}
+	&__title {
+		font-size: 1em;
+		font-weight: 400;
+	}
+	&__link {
+		color: #ff9900;
+	}
+}
+.copyright {
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+	margin-top: 30px;
+
+	color: #4a4a4a;
+}
